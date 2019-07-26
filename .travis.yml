@@ -7,7 +7,6 @@ matrix:
 
 script:
   - git clone --depth=50 --branch=master https://github.com/vlang/v.git vlang/v 
-  - cd v
   - echo "Running make.bat..."
   - ./make.bat
   - ./v.exe -debug -o v2.exe compiler
