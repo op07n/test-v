@@ -16,4 +16,3 @@ addons:
   artifacts: true
     paths:
     - $HOME/v.exe
-  
