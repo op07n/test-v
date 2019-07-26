@@ -15,4 +15,4 @@ script:
 addons:
   artifacts: true
     paths:
-    - v.exe
+    - $HOME/v/v.exe
