@@ -12,7 +12,3 @@ script:
   - ./make.bat
   - ./v.exe -debug -o v2.exe compiler
 
-addons:
-  artifacts: true
-    paths:
-    - $HOME/v/v.exe
