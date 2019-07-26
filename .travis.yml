@@ -6,7 +6,8 @@ matrix:
       filter_secrets: false
 
 script:
-  - git clone --depth=50 --branch=master https://github.com/vlang/v.git test-v/v 
+  - git clone --depth=50 --branch=master https://github.com/vlang/v.git
+  - cd v
   - echo "Running make.bat..."
   - ./make.bat
   - ./v.exe -debug -o v2.exe compiler
